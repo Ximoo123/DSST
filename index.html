@@ -13,6 +13,7 @@
 
         <h2>Channel Bandwidth = 10KHz, SNR = -1dB, AWGN Channel</h2>
         <div class="GroupNumber">
+            <div class="Empty"></div>
             <div class="GroupNumberIndex"><h2>Group 1</h2></div>
             <div class="EmptyBetweenAudio"></div>
             <div class="GroupNumberIndex"><h2>Group 2</h2></div>
@@ -23,53 +24,53 @@
         </div>
         <div class="ShowAudio">
             <div class="groupname"><h3 align="left">Original audio</h3></div>
+            <audio preload="auto" controls="controls" src="./Num1145_SNR_1Yuan.wav"></audio>
+            <div class="EmptyBetweenAudio"></div>
             <audio preload="auto" controls="controls" src="./Num1275_SNR_1Yuan.wav"></audio>
             <div class="EmptyBetweenAudio"></div>
             <audio preload="auto" controls="controls" src="./Num1348_SNR_1Yuan.wav"></audio>
             <div class="EmptyBetweenAudio"></div>
             <audio preload="auto" controls="controls" src="./Num1439_SNR_1Yuan.wav"></audio>
-            <div class="EmptyBetweenAudio"></div>
-            <audio preload="auto" controls="controls" src="./Num1145_SNR_1Yuan.wav"></audio>
         </div>
         <div class="ShowAudio">
             <div class="groupname"><h3 align="left">DSST (Our model)</h3></div>
+            <audio preload="auto" controls="controls" src="./Num1145_SNR_1.wav"></audio>
+            <div class="EmptyBetweenAudio"></div>
             <audio preload="auto" controls="controls" src="./Num1275_SNR_1.wav"></audio>
             <div class="EmptyBetweenAudio"></div>
             <audio preload="auto" controls="controls" src="./Num1348_SNR_1.wav"></audio>
             <div class="EmptyBetweenAudio"></div>
             <audio preload="auto" controls="controls" src="./Num1439_SNR_1.wav"></audio>
-            <div class="EmptyBetweenAudio"></div>
-            <audio preload="auto" controls="controls" src="./Num1145_SNR_1.wav"></audio>
         </div>
         <div class="ShowAudio">
             <div class="groupname"><h3 align="left">AMR-WB + 5G LDPC</h3></div>
+            <audio preload="auto" controls="controls" src="./Num1145_AMR.wav"></audio>
+            <div class="EmptyBetweenAudio"></div>
             <audio preload="auto" controls="controls" src="./Num1275_AMR.wav"></audio>
             <div class="EmptyBetweenAudio"></div>
             <audio preload="auto" controls="controls" src="./Num1348_AMR.wav"></audio>
             <div class="EmptyBetweenAudio"></div>
             <audio preload="auto" controls="controls" src="./Num1439_AMR.wav"></audio>
-            <div class="EmptyBetweenAudio"></div>
-            <audio preload="auto" controls="controls" src="./Num1145_AMR.wav"></audio>
         </div>
         <div class="ShowAudio">
             <div class="groupname"><h3 align="left">Opus + 5G LDPC</h3></div>
+            <audio preload="auto" controls="controls" src="./Num1145__Opus.wav"></audio>
+            <div class="EmptyBetweenAudio"></div>
             <audio preload="auto" controls="controls" src="./Num1275__Opus.wav"></audio>
             <div class="EmptyBetweenAudio"></div>
             <audio preload="auto" controls="controls" src="./Num1348__Opus.wav"></audio>
             <div class="EmptyBetweenAudio"></div>
             <audio preload="auto" controls="controls" src="./Num1439__Opus.wav"></audio>
-            <div class="EmptyBetweenAudio"></div>
-            <audio preload="auto" controls="controls" src="./Num1145__Opus.wav"></audio>
         </div>
         <div class="ShowAudio">
             <div class="groupname"><h3 align="left">DeepSC-S</h3><h3>(Bandwidth = 12KHz)</h3></div>
+            <audio preload="auto" controls="controls" src="./Num1145_DeepSC.wav"></audio>
+            <div class="EmptyBetweenAudio"></div>
             <audio preload="auto" controls="controls" src="./Num1275_DeepSC.wav"></audio>
             <div class="EmptyBetweenAudio"></div>
             <audio preload="auto" controls="controls" src="./Num1348_DeepSC.wav"></audio>
             <div class="EmptyBetweenAudio"></div>
             <audio preload="auto" controls="controls" src="./Num1439_DeepSC.wav"></audio>
-            <div class="EmptyBetweenAudio"></div>
-            <audio preload="auto" controls="controls" src="./Num1145_DeepSC.wav"></audio>
         </div>
 
 
@@ -202,8 +203,10 @@
         .EmptyBetweenAudio{
             width:150px;
         }
+        .Empty{
+            width:206px ;
+        }
         .GroupNumber{
-            padding-left:206px;
             display:flex;
         }
         .GroupNumberIndex{
