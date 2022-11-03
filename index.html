@@ -24,7 +24,7 @@
         </div>
         <div class="ShowAudio">
             <div class="groupname"><h3 align="left">Original audio</h3></div>
-            <audio preload="auto" controls="controls" src="./Num1145_SNR_1Yuan.wav"></audio>
+            <div class="audiobackgroundblue"> <audio preload="auto" controls="controls" src="./Num1145_SNR_1Yuan.wav"></audio></div>
             <div class="EmptyBetweenAudio"></div>
             <audio preload="auto" controls="controls" src="./Num1275_SNR_1Yuan.wav"></audio>
             <div class="EmptyBetweenAudio"></div>
@@ -200,10 +200,10 @@
             display: flex;
         }
         .EmptyBetweenPictures{
-            width: 450px;
+            width: 390px;
         }
         .EmptyBetweenAudio{
-            width:150px;
+            width:90px;
         }
         .Empty{
             width:206px ;
@@ -224,6 +224,9 @@
             display: flex;
             text-align: center;
             align-items: center;
+        }
+        .audiobackgroundblue{
+            background: aqua;
         }
         .ReferenceAudio{
             width: 500px;
