@@ -10,6 +10,14 @@
         </div>
 
         <h2>Channel Bandwidth = 4KHz, SNR = 5dB, AWGN Channel</h2>
+        
+        <div class="GroupNumber">
+            <h2>Group 1</h2>
+            <h2>Group 2</h2>
+            <h2>Group 3</h2>
+            <h2>Group 4</h2>
+        </div>
+        
         <div class="ReferenceAudio">
             <h3 align="left">Original audio</h3>
             <audio preload="auto" controls="controls" src="./wav/Band4SNR5/Yuan/Num1362_SNR5Yuan.wav">参考音频</audio>
@@ -36,6 +44,13 @@
         </div>
 
         <h2>Channel Bandwidth = 10KHz, SNR = 1dB, AWGN Channel</h2>
+        <div class="GroupNumber">
+            <h2>Group 1</h2>
+            <h2>Group 2</h2>
+            <h2>Group 3</h2>
+            <h2>Group 4</h2>
+        </div>
+        
         <div class="ReferenceAudio">
             <h3 align="left">Original audio</h3>
             <audio preload="auto" controls="controls" src="./wav/Band10SNR1/Yuan/Num90_SNR1Yuan.wav">参考音频</audio>
@@ -68,6 +83,13 @@
         </div>
 
         <h2>Channel Bandwidth = 10KHz, SNR = 2dB, COST2100 Fading Channel</h2>
+        <div class="GroupNumber">
+            <h2>Group 1</h2>
+            <h2>Group 2</h2>
+            <h2>Group 3</h2>
+            <h2>Group 4</h2>
+        </div>
+        
         <div class="ReferenceAudio">
             <h3 align="left">Original audio</h3>
             <audio preload="auto" controls="controls" src="./wav/user_study3/Yuan/Num1361_Yuan.wav">参考音频</audio>
@@ -104,8 +126,15 @@
 {% block head %}
     {{ super() }}
     <style>
+        .ShowPictures{
+            display:flex;
+        }
+        .GroupNumber{
+            left-margin:100px;
+            display:flex;
+        }
         .ReferenceAudio{
-            width: 500px;
+            width: 1000px;
             margin: 30px auto;
             display: flex;
             text-align: center;
